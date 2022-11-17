@@ -1,0 +1,96 @@
+body {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.logo {
+  height: 80px;
+  width: 160px;
+}
+.header-btn {
+  padding: 13px;
+  border-radius: 50px;
+  border: solid;
+}
+.header-btn:hover {
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.395);
+}
+.user {
+  padding: 15px;
+  border-radius: 50px;
+  border: solid 0.1px;
+}
+.user:hover {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.388);
+}
+.red {
+  background-color: red;
+  padding: 10px;
+  border-radius: 50px;
+}
+.center {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.host-btn {
+  padding: 20px;
+  border-radius: 50px;
+  border: none;
+  float: right;
+}
+.host-btn:hover {
+  background: rgba(165, 163, 163, 0.792);
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.images {
+  height: 40px;
+  width: 40px;
+}
+.tour-class {
+  text-align: center;
+}
+.tour-btn {
+  z-index: 2;
+  display: inline-block;
+  padding: 10px;
+}
+.tour-text {
+  text-decoration: none;
+}
+.filter {
+  padding: 20px;
+  border-radius: 15px;
+}
+.card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px;
+}
+.tour-images {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+.text {
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
+.card2 {
+  display: inline-block;
+}
+.right-text {
+  float: right;
+}
